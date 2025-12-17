@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(#b3e5fc, #e1f5fe);
+    font-family: delius, sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.tarjeta {
+    background: white;
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    color: #d32f2f;
+}
+
+.imagen {
+    display: none;
+    width: 80%;
+    border-radius: 15px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff5252;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1744;
+}
+
+.copos{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: red;
+    position: fixed;
+    top: -3px;
+    animation: caer 4s linear forwards;
+}
+
+@keyframes caer{
+    0% {transform: translateY(0);}
+    100% {transform: translateY(100vh);}
+}
