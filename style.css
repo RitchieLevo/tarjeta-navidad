@@ -44,7 +44,7 @@ button:hover {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: red;
+    background: white;
     position: fixed;
     top: -3px;
     animation: caer 4s linear forwards;
